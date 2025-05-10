@@ -5,3 +5,8 @@ edition = "2024"
 
 [dependencies]
 sha2 = "0.11.0-pre.5"
+serde = { version = "1.0.219", features = ["derive"] }
+hex = "0.4.3"
+aes-gcm = "0.10.3"
+rand_core = "0.6.4"
+thiserror = "2.0.12"
