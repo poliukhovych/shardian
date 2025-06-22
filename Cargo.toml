@@ -1,0 +1,12 @@
+[workspace]
+members = [
+    "contracts/shardian_contracts/programs/shardian_contracts",
+    "crates/shardian-core",
+    "crates/shardian-node",
+    "crates/shardian-api",
+    "crates/shardian-cli",
+    "crates/shardian-client",
+    "crates/shardian-incentives",
+    "crates/shardian-utils",
+]
+resolver = "2"
